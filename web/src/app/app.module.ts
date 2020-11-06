@@ -1,21 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ProductComponent } from './componets/product/product.component';
-import { ProductItemComponent } from './componets/product-item/product-item.component';
-import { HeaderComponent } from './componets/header/header.component';
-import { FooterComponent } from './componets/footer/footer.component';
+import { ProductItemComponent } from './components/product-item/product-item.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ProductListComponent } from './components/product-list/product-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProductComponent,
     ProductItemComponent,
     HeaderComponent,
     FooterComponent,
+    ProductListComponent,
   ],
   imports: [
     BrowserModule,
